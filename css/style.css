@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: helvetica;
+}
+.navigate{
+    display: flex;
+    background-color: #267A56;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+.navigate__img{
+margin: 0;
+}
+.navigate__anchor{
+    display: flex;
+    margin-top: 1.8em;
+}
+.navigate__anchor a{
+    padding-left: 1.8em;
+    text-decoration: none;
+    color: gray;
+}
+.navigate__anchor a:hover{
+    color: white;
+}
