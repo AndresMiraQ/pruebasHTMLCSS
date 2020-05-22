@@ -81,3 +81,23 @@ html,body{
     background-color: greenyellow;
     transition: 200ms;
 }
+
+@media (max-width: 700px){
+    .mainSection{
+        padding: 5%;
+    }
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .products__product{
+        margin-top: auto;
+    }
+
+}
+@media (max-width: 420px){
+    .mainSection h1{
+        font-size: var(--normal);
+        padding: 20px;
+    }
+}
