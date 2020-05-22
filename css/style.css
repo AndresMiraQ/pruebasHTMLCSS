@@ -1,0 +1,66 @@
+/*Fuentes Tipograficas*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*---------Variables*/
+:root{
+    --green-color:#5e9e22;
+    --white-color:white;
+    --black-color:black;
+    /*Tipografía*/
+    --normal:12px;
+    /*Espaciado*/
+    --space:10px;   
+}
+/*---------Variables*/
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    padding: 0px;
+}
+.mainSection{
+
+}
+.mainSection h1{
+    padding: 15%;
+    text-align: center;
+}
+.products{
+    background-image: url("../imagenes/curve.png");
+    background-size: cover;
+    background-position: center top;
+    height: 50px;
+    padding: 15%;
+    display: flex;
+}
+.products__product{
+    padding: var(--space);
+    margin-top: -160px;
+}
+.imageContent{
+    text-align: center;
+}
+.imageContent img{
+    width: 200px;
+}
+.products__product--content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 1px #c1bcbc ;
+}
+.button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 15px;
+    color: var(--white-color);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: greenyellow;
+    transition: 200ms;
+}
