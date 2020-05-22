@@ -18,10 +18,27 @@ html,body{
     font-family: 'Open Sans', sans-serif;
 }
 .container{
-    padding: 0px;
+    padding: 20px;
 }
-.mainSection{
-
+.navigate{
+    background-color:var(--green-color);
+    padding: var(--space);
+    font-size: var(--norma);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}
+.navigate__img{
+    padding: 0;
+    margin: 0;
+}
+.navigate__anchor{
+    margin-top: 16px;
+}
+.navigate__anchor a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: var(--white-color);
 }
 .mainSection h1{
     padding: 15%;
