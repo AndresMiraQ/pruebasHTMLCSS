@@ -81,6 +81,15 @@ html,body{
     background-color: greenyellow;
     transition: 200ms;
 }
+footer{
+    background-color: var(--green-color);
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+    color:var(--white-color);
+    padding: var(--space);
+}
 /*keyframes (animasciones y transiciones*/
 .fadeIn{
     -webkit-animation-duration: 4s;

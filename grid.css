@@ -1,0 +1,72 @@
+.containerDos{
+    max-width: 1080px;
+    padding: 20px;
+    margin: auto;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333333333%);
+    grid-template-rows: minmax(1fr, 40%);
+    align-items: center;
+    
+}
+.box{
+   display: inherit;
+   height: auto;
+}
+.box img{
+    width: 70%;
+    max-height: 252px;
+}
+
+.col-1{
+    width: calc(100%/12*1);
+}
+.col-2{
+    width: calc(100%/12*2);
+}
+.col-3{
+    width: calc(100%/12*3);
+}
+.col-4{
+    width: calc(100%/12*4);
+}
+.col-5{
+    width: calc(100%/12*5);
+}
+.col-6{
+    width: calc(100%/12*6);
+}
+.col-7{
+    width: calc(100%/12*7);
+}
+.col-8{
+    width: calc(100%/12*8);
+}
+.col-9{
+    width: calc(100%/12*9);
+}
+.col-10{
+    width: calc(100%/12*10);
+}
+.col-11{
+    width: calc(100%/12*11);
+}
+.col-12{
+    width: calc(100%/12*12);
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+}
+@media (max-width: 900px) {
+    .row{
+        display: inherit;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+        width: 100%;
+    }
+}
+/*.col-1{
+    width: calc(100% / 12*5)
+}*/
+
