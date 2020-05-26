@@ -7,8 +7,10 @@
     --black-color:black;
     /*Tipografía*/
     --normal:12px;
-    /*Espaciado*/
-    --space:10px;   
+    /*-Espaciado*/
+    --space:10px;
+    /*-------box*/
+    --box:0px 0 2px 1px #e6e5e9
 }
 /*---------Variables*/
 html,body{
@@ -16,6 +18,9 @@ html,body{
     margin: 0px;
     font-size: var(--normal);
     font-family: 'Open Sans', sans-serif;
+}
+label{
+    font-size: var(--normal);
 }
 .container{
     padding: 20px;
@@ -90,6 +95,30 @@ footer{
     color:var(--white-color);
     padding: var(--space);
 }
+/*-----------------------------------------------------Venta*/
+.moduloPago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+.moduloPago__img{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.moduloPago__data{
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+}
+.moduloPago .button{
+    margin-top: var(--space);
+}
+/*-------------------------------------------------Fin venta*/
 /*keyframes (animasciones y transiciones*/
 .fadeIn{
     -webkit-animation-duration: 4s;
